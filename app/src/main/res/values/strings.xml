@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">calculator</string>
+    <string name="name2_edit">Введи число</string>
+    <string name="name_edit">Введи число</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">-</string>
+    <string name="bnt_multiply">*</string>
+    <string name="btn_split">:</string>
+    <string name="result">Результат</string>
 </resources>

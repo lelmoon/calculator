@@ -18,15 +18,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Введи число"
+                android:hint="@string/name_edit"
                 android:id="@+id/double_edit" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Введи число"
-                android:text=""
+                android:hint="@string/name2_edit"
                 android:id="@+id/double2_edit" />
         </LinearLayout>
 
@@ -38,7 +37,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="+"
+            android:hint="@string/btn_plus"
             android:textColorHint="@color/white"
             android:layout_weight="1"
             android:id="@+id/plus"
@@ -47,7 +46,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="-"
+            android:hint="@string/btn_minus"
             android:textColorHint="@color/white"
             android:layout_weight="1"
             android:id="@+id/minus"
@@ -56,7 +55,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="*"
+            android:hint="@string/bnt_multiply"
             android:textColorHint="@color/white"
             android:layout_weight="1"
             android:id="@+id/multiply"
@@ -65,7 +64,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint=":"
+            android:hint="@string/btn_split"
             android:textColorHint="@color/white"
             android:layout_weight="1"
             android:id="@+id/split"
@@ -79,7 +78,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:hint="Результат"
+            android:hint="@string/result"
             android:textSize="32sp"
             android:id="@+id/textView"
             android:gravity="center"
